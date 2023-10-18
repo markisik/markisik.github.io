@@ -1,1 +1,41 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #212121;
+    color: #FFFFFF;
+    padding: 10px 10%;
+}
 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.7em;
+}
+
+.greet-text {
+    text-align: center;
+}
+
+.greet-text p {
+    font-size: 25px;
+}
+
+.gradient {
+    background: rgb(255, 160, 160);
+    background: linear-gradient(142deg, rgba(255, 160, 160, 1) 0%, rgba(255, 180, 180, 1) 27%, rgba(255, 200, 200, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sub-title {
+    font-size: 30px;
+}
+
+
+.avatar {
+    border-radius: 5px;
+}
