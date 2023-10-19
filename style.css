@@ -37,7 +37,5 @@ nav {
 
 
 .avatar {
-    width: 45%;
-    height: 45%;
     object-fit: contain;
 }
