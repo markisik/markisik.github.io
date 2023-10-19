@@ -34,4 +34,6 @@ nav {
 .sub-title {
     font-size: 30px;
 }
-
+.ava {
+    border-radius: 5px;
+}
