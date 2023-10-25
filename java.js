@@ -1,15 +1,8 @@
-window.onload = function() {
-  setInterval(function() {
-    // Seconds
-    var seconds = new Date().getSeconds();
-    document.getElementById("seconds").innerHTML = (seconds < 10 ? '0' : '') + seconds;
+var myVar = setInterval(function() {
+  myTimer();
+}, 1000);
 
-    // Minutes
-    var minutes = new Date().getMinutes();
-    document.getElementById("minutes").innerHTML = (minutes < 10 ? '0' : '') + minutes;
-
-    // Hours
-    var hours = new Date().getHours();
-    document.getElementById("hours").innerHTML = (hours < 10 ? '0' : '') + hours;
-  }, 1000);
+function myTimer() {
+  var d = new Date();
+  document.getElementById("clock").innerHTML = d.toLocaleTimeString();
 }
