@@ -1,28 +1,15 @@
-// START CLOCK SCRIPT
+window.onload = function() {
+  setInterval(function() {
+    // Seconds
+    var seconds = new Date().getSeconds();
+    document.getElementById("seconds").innerHTML = (seconds < 10 ? '0' : '') + seconds;
 
-Number.prototype.pad = function(n) {
-  for (var r = this.toString(); r.length < n; r = 0 + r);
-  return r;
-};
+    // Minutes
+    var minutes = new Date().getMinutes();
+    document.getElementById("minutes").innerHTML = (minutes < 10 ? '0' : '') + minutes;
 
-function updateClock() {
-  var now = new Date();
-  var sec = now.getSeconds(),
-    min = now.getMinutes(),
-    hou = now.getHours(),
-    mo = now.getMonth(),
-    dy = now.getDate(),
-    yr = now.getFullYear();
-  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  var tags = ["mon", "d", "y", "h", "m", "s", "mi"],
-    corr = [months[mo], dy, yr, hou.pad(2), min.pad(2), sec.pad(2), milli];
-  for (var i = 0; i < tags.length; i++)
-    document.getElementById(tags[i]).firstChild.nodeValue = corr[i];
+    // Hours
+    var hours = new Date().getHours();
+    document.getElementById("hours").innerHTML = (hours < 10 ? '0' : '') + hours;
+  }, 1000);
 }
-
-function initClock() {
-  updateClock();
-  window.setInterval("updateClock()", 1);
-}
-
-// END CLOCK SCRIPT
