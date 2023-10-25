@@ -38,3 +38,8 @@ nav {
 .ava {
     border-radius: 5px;
 }
+
+.class {
+    text-align: center;
+    font-size: 30px;
+}
