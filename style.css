@@ -1,8 +1,7 @@
 
 body {
     font-family: 'Comic Sans MS', sans-serif;
-    background: rgb(55, 55, 55);
-    background: linear-gradient(142deg, rgba(55, 55, 55, 0) 0%, rgba(77, 77, 77, 0) 27%, rgba(99, 99, 99, 0) 100%)
+    background: #FFFFFF;
     color: #FFFFFF;
     padding: 10px 10%;
 }
