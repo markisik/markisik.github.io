@@ -38,9 +38,9 @@ nav {
 .ava {
     border-radius: 5px;
 }
-/*--------------------*/
+
 .clock {
-  position: absolute;
+  position: static;
   top: 50%;
   width: 99%;
   margin: -60px auto 0 auto;
