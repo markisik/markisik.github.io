@@ -1,3 +1,14 @@
+
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:left;
+  width: 50%;
+  margin: 40px auto;
+  color:#fff;
+  border-left: 3px solid #ed1f24;
+  padding: 20px;
+}
+
 body {
     font-family: 'Comic Sans MS', sans-serif;
     background-color: #212121;
