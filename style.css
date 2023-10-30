@@ -68,3 +68,29 @@ footer p,
 footer p a {
     color: #515151;
 }
+
+#contact p i {
+    color: var(--accent-color);
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#contact p {
+    display: flex;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.socials i {
+    font-size: 25px;
+    transition: .25s ease-in-out;
+}
+
+.socials i:hover {
+    color: var(--accent-color);
+    transform: scale(1.1);
+}
