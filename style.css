@@ -53,6 +53,11 @@ nav {
     display: flex;
 }
 
+#contact{
+    position: relative;
+    right: 40px;
+}
+
 
 footer p a {
     text-decoration: none;
@@ -87,3 +92,7 @@ footer p a {
     right: -8px;
 }
 
+li {
+    position: relative;
+    right: -30px;
+}
