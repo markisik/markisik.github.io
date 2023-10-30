@@ -78,6 +78,9 @@ footer p a::before {
 footer p a:hover::before {
     width: 100%;
 }
+.VK {
+    color: var(--accent-color);
+}
 
 footer p,
 footer p a {
