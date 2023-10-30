@@ -81,6 +81,11 @@ footer p a {
 }
 
 .VK {
-    color: var(--accent-color);
-     text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
 }
+
+.tic {
+    color: #515151;
+}
+
