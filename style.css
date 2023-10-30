@@ -78,11 +78,38 @@ footer p a::before {
 footer p a:hover::before {
     width: 100%;
 }
-.VK {
-    color: var(--accent-color);
-}
+
 
 footer p,
 footer p a {
+    color: #515151;
+}
+
+.VK {
+    color: var(--accent-color);
+}
+.VK p a {
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.VK p a::before {
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    height: 3px;
+    width: 0;
+    background: var(--accent-color);
+    transition: .25s ease-in-out;
+}
+
+.VK p a:hover::before {
+    width: 100%;
+}
+
+
+.VK p,
+.VK p a {
     color: #515151;
 }
