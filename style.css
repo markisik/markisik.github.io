@@ -58,52 +58,6 @@ nav {
     display: flex;
 }
 
-.socials {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.socials i {
-    font-size: 25px;
-    transition: .25s ease-in-out;
-}
-
-.socials i:hover {
-    color: var(--accent-color);
-    transform: scale(1.1);
-}
-
-.blue-text {
-    color: var(--accent-color);
-}
-
-.services-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
-
-.services-list div {
-    background-color: #313131;
-    font-weight: 300;
-    padding: 40px;
-    transition: .5s ease-in-out;
-}
-
-.services-list div h2 {
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.services-list div:hover {
-    background-color: var(--accent-color);
-    transform: translateY(-10px);
-}
-
-.services-list div i {
-    font-size: 50px;
-}
 
 footer p a {
     text-decoration: none;
