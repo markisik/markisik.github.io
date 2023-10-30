@@ -81,7 +81,9 @@ footer p a {
 }
 
 .VK {
-    color: #ffa0a0;
+    color: #ffffff;
     text-decoration: none;
+    position: relative;
+    right: -8px;
 }
 
