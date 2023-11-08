@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Comic Sans MS", Times, serif;
+    font-family: 'Open Sans';
     background-color: #212121;
     color: #FFFFFF;
     padding: 10px 10%;
@@ -19,7 +19,21 @@ nav {
 
 .logo {
     font-size: 1.7em;
-    border-radius: 5px;
+    background-clip: border-box;
+    background: #191919;
+    border-radius: 7px;
+    padding-inline: 8px;
+    padding-block: 4px;
+    font-weight: 600;
+}
+
+.im_weak {
+    background-clip: border-box;
+    background: #191919;
+    border-radius: 7px;
+    padding-inline: 8px;
+    padding-block: 4px;
+    font-weight: 600;
 }
 
 .greet-text {
@@ -32,7 +46,7 @@ nav {
 
 .gradient {
     background: rgb(255, 160, 160);
-    background: linear-gradient(142deg, rgba(255, 160, 160, 1) 0%, rgba(255, 180, 180, 1) 27%, rgba(255, 210, 210, 0) 100%);
+    background: linear-gradient(143deg, rgba(255, 180, 180) 0%, rgba(255, 140, 140) 50%, rgba(255, 160, 160, 0.1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
