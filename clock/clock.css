@@ -1,0 +1,56 @@
+.clock {
+  position: static;
+  text-align: center;
+  padding: auto;
+  font-size: 2.4em;
+  font-family: Verdana, Arial, Sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.clock ul {
+  margin: 0 auto;
+  list-style: none;
+}
+.clock ul li {
+  display: inline;
+}
+.clock ul li#separator {
+  -moz-animation: myfade 1s ease infinite;
+  -webkit-animation: myfade 1s ease infinite;
+}
+
+/* Animation */
+@-webkit-keyframes myfade {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }   
+}
+
+@-moz-keyframes myfade {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  };
+}
+
+.logo-clock {
+  font-size: 0.8em;
+  background-clip: border-box;
+  background: #191919;
+  border-radius: 7px;
+  padding-inline: 8px;
+  padding-block: 4px;
+  padding-right: 67px;
+  font-weight: 600;
+}
