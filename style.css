@@ -155,3 +155,14 @@ li {
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size:0.9em;
+        padding: 5px 1%;
+    }
+    …
+    h1 {
+        font-size:2.5em;
+    }
+}
