@@ -164,9 +164,23 @@ li {
     }
 }
 
+@media screen and (max-width: 550px) {
+    body {
+        font-size:0.8em;
+        padding: 5px 1%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     body {
         font-size:0.7em;
+        padding: 5px 1%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        font-size:0.6em;
         padding: 5px 1%;
     }
 }
