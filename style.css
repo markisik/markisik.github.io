@@ -1,3 +1,4 @@
+@import url("clock/clock.css");
 
 :root {
     --accent-color: #ffa0a0;
@@ -159,6 +160,13 @@ li {
 @media screen and (max-width: 700px) {
     body {
         font-size:0.9em;
+        padding: 5px 1%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size:0.7em;
         padding: 5px 1%;
     }
 }
