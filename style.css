@@ -177,10 +177,3 @@ li {
         padding: 5px 1%;
     }
 }
-
-@media screen and (max-width: 450px) {
-    body {
-        font-size:0.6em;
-        padding: 5px 1%;
-    }
-}
