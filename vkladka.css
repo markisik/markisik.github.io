@@ -1,3 +1,5 @@
+* {box-sizing: border-box}
+
 .tab {
     float: left;
     border: 1px solid #ccc;
