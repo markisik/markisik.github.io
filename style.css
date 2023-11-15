@@ -1,4 +1,5 @@
 @import url("clock/clock.css");
+@import url("vkladka.css");
 
 :root {
     --accent-color: #ffa0a0;
@@ -112,6 +113,11 @@ footer p a {
     right: -8px;
 }
 
+.VK2 {
+    color: #ffa0a0;
+    text-decoration: none;
+}
+
 li {
     position: relative;
     right: -30px;
@@ -154,13 +160,16 @@ li {
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #ff0000; /* Add a dark-grey background on hover */
 }
 
 @media screen and (max-width: 600px) {
     body {
         font-size:0.9em;
         padding: 5px 1%;
+    }
+    .tabcontent {
+        font-size:1.1em;
     }
 }
 
@@ -169,4 +178,8 @@ li {
         font-size:0.7em;
         padding: 5px 1%;
     }
+    .tabcontent {
+        font-size:1.3em;
+    }
 }
+
