@@ -11,6 +11,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css" />
    <link rel="stylesheet" href="clock/clock.css">
+<link rel="stylesheet" href="vkladka.css">
    <title>Markisik</title>
 
 
@@ -33,6 +34,7 @@
               </div>
          </nav>
          <script src="clock/clock.js"></script>
+         <script src="vkladka.js"></script>
          
 
       </header>
@@ -50,48 +52,26 @@
 
         <div id="about">
             <h1 class="sub-title">Про меня</h1>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
-            <p>
-                много
-            </p>
+        <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
         </div>
         
     </main>
