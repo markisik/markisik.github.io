@@ -1,12 +1,17 @@
 @import url("clock/clock.css");
 @import url("vkladka.css");
 
+@font-face {
+	font-family: 'FontName'; 
+	src: url(/shrift/Comic_Sans_MS.ttf); 
+}
+
 :root {
     --accent-color: #ffa0a0;
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: 'Fontname';
     background-color: #212121;
     color: #FFFFFF;
     padding: 10px 10%;
@@ -113,6 +118,13 @@ footer p a {
     right: -8px;
 }
 
+.steam {
+    color: #ffa0a0;
+    text-decoration: none;
+    position: relative;
+    right: -8px;
+}
+
 .VK2 {
     color: #ffa0a0;
     text-decoration: none;
@@ -120,7 +132,7 @@ footer p a {
 
 li {
     position: relative;
-    right: -30px;
+
 }
 
 .select-btns {
@@ -160,7 +172,7 @@ li {
 }
 
 #myBtn:hover {
-    background-color: #ff0000; /* Add a dark-grey background on hover */
+    background-color: #717171; /* Add a dark-grey background on hover */
 }
 
 @media screen and (max-width: 600px) {
@@ -183,3 +195,14 @@ li {
     }
 }
 
+.pytischestvie ul {
+    padding-left: 40px;
+}
+
+.meow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
