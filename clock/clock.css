@@ -6,6 +6,7 @@
   font-family: Verdana, Arial, Sans-serif;
   text-align: center;
   color: #fff;
+  
 }
 .clock ul {
   margin: 0 auto;
@@ -51,6 +52,6 @@
   border-radius: 7px;
   padding-inline: 8px;
   padding-block: 4px;
-  padding-right: 67px;
   font-weight: 600;
+  padding-inline: 10px;
 }
