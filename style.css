@@ -66,6 +66,11 @@ nav {
 }
 .ava {
     border-radius: 5px;
+    position: static;
+}
+.shapka{
+    position: absolute;
+    margin-left: -180px;
 }
 
 #contact p i {
