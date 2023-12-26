@@ -66,7 +66,7 @@ nav {
 }
 .ava {
     border-radius: 5px;
-    position: static;
+    position: relative;
 }
 .shapka{
     position: absolute;
