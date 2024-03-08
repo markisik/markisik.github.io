@@ -11,7 +11,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css" />
    <link rel="stylesheet" href="/vkladka/vkladka.css" />
-   <link rel="stylesheet" href="/snow/snow.css" />
+   <!--<link rel="stylesheet" href="/snow/snow.css" />-->
    <script src="/vkladka/vkladka.js"></script>
    <script src="/clock/clock.js"></script>
 
@@ -49,10 +49,58 @@
     </div>
 
     <main>
+        <!--Солнышко, поменять когда будет лето-->
+         <div class="sun">  
+
+         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         width="450" height="450" viewBox="0 0 300 300" >  
+  
+         <defs>
+            <radialGradient id="Rgrad"  >
+               <stop stop-color="yellow" offset="0.25">
+             <!-- Анимация смены цвета градиента -->
+             <animate
+             attributeName="stop-color"
+             dur="8s"
+             values="yellow;orange;yellow"
+             begin="0s"
+     
+             repeatCount="indefinite"  /> 
+            </stop>
+            <stop stop-color="orange" offset="1">
+               <animate
+               attributeName="stop-color"
+               dur="4s"
+               values="orange;yellow;orange"
+               begin="0s"
+      
+      repeatCount="indefinite" /> 
+     </stop>
+     
+    
+         </radialGradient>
+         </defs>
+             <g id="sun">
+      <circle cx="150" cy="150" r="100"  fill="url(#Rgrad)" stroke="url(#Rgrad)" stroke-width="100" stroke-dasharray="7.85" />
+  
+               </g> 
+                 <!--Анимация вращения солнца -->
        
+     <animateTransform
+       xlink:href="#sun"
+       attributeName="transform"
+       type="rotate"
+       dur="60s"
+       values="0 150 150;360 150 150;0 150 150"
+       repeatCount="indefinite" />
+  </svg>
+
+            </div>
+
         <div id="home" class="greet-text" data-active-collapse="true">
             <img class="ava" src="/image/photo_2023-04-30_23-04-24.jpg" width="200" height="200" title="Эстер Зуева, самый лучший персонаж">
-            <img class="shapka" src="/image/shapka.png" width="100">
+            <!--<img class="shapka" src="/image/shapka.png" width="100">-->
             <div class="stack" style="--stacks: 3;">
               <span style="--index: 0;">Привет, я Марк</span>
               <span style="--index: 1;">Привет, я Марк</span>
