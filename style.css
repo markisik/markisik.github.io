@@ -1,5 +1,5 @@
 @import url("clock/clock.css");
-@import url("vkladka.css");
+@import url("/vkladka/vkladka.css");
 
 @font-face {
 	font-family: 'FontName'; 
@@ -58,6 +58,7 @@ nav {
     background: rgb(255, 160, 160);
     background: linear-gradient(143deg, rgba(255, 180, 180) 0%, rgba(255, 140, 140) 50%, rgba(255, 160, 160, 0.1) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -198,6 +199,12 @@ li {
     .tabcontent {
         font-size:1.3em;
     }
+    .sun {
+      transform: 50%;
+      text-align: center;
+      height: 125px;
+      filter: drop-shadow(0 0 13px rgb(255, 218, 10)); 
+    }
 }
 
 .pytischestvie ul {
@@ -277,7 +284,13 @@ li {
 
    /*солнышко, не забудь поменять когда лето будет*/
   .sun {
-    text-align: center;
     height: 125px;
+    transform: 50%;
+    text-align: center;
     filter: drop-shadow(0 0 13px rgb(255, 218, 10)); 
   }
+
+  .ssalka1 {
+    color: #FFFFFF;
+    text-decoration: none;
+}

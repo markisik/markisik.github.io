@@ -1,0 +1,32 @@
+
+@font-face {
+	font-family: 'FontName'; 
+	src: url(/shrift/Comic_Sans_MS.ttf); 
+}
+
+:root {
+    --accent-color: #ffa0a0;
+}
+
+body {
+    font-family: 'Fontname';
+    background-color: #212121;
+    color: #FFFFFF;
+    padding: 10px 10%;
+}
+
+table {
+    height: auto;
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+    border-spacing: 3px;
+    border-collapse: separate;
+}
+
+th,td {
+      border: 2px solid var(--accent-color);
+      border-radius: 5px;
+    }
+

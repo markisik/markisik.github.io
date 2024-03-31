@@ -6,7 +6,6 @@
   font-family: Verdana, Arial, Sans-serif;
   text-align: center;
   color: #fff;
-  
 }
 .clock ul {
   margin: 0 auto;
@@ -17,11 +16,12 @@
 }
 .clock ul li#separator {
   -moz-animation: myfade 1s ease infinite;
+  animation: 3s;
   -webkit-animation: myfade 1s ease infinite;
 }
 
 /* Animation */
-@-webkit-keyframes myfade {
+@keyframes myfade {
   0% {
     opacity: 1.0;
   }
