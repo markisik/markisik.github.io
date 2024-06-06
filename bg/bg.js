@@ -243,7 +243,7 @@
           point1 = new Point(startx, starty),
           point2 = new Point(startx, starty),
           point3 = null,
-          color = Math.round(random(35, 35, 40, 40)),
+          color = 1,
           delay = 0
   
         // buils ribbon sections
