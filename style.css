@@ -1,5 +1,5 @@
-@import url("clock/clock.css");
 @import url("/vkladka/vkladka.css");
+@import url("/clock/clock.css");
 
 @font-face {
 	font-family: 'FontName'; 
@@ -227,10 +227,14 @@ li {
     text-align: right;
     width: 100%;
   }
-  
-  /*не забудь поменять когда лето будет (1 строчку)*/
+
+  .ssalka1 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
   .stack {
-    margin-top: 110px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -245,7 +249,7 @@ li {
     --clip-top: calc(var(--stack-height) * var(--index));
     --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
     clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
-    animation: stack 340ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
+    animation: stack 350ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 150ms), glitch 3s ease infinite 2s alternate-reverse;
   }
   
   .stack span:nth-child(odd) { --glitch-translate: 8px; }
@@ -281,16 +285,19 @@ li {
     }
     4%, 100% {  text-shadow: none; transform: none; }
   }
-
-   /*солнышко, не забудь поменять когда лето будет*/
+   /*солнышко, не забудь поменять когда лето будет
   .sun {
     height: 125px;
     transform: 50%;
     text-align: center;
     filter: drop-shadow(0 0 13px rgb(255, 218, 10)); 
   }
-
-  .ssalka1 {
-    color: #FFFFFF;
-    text-decoration: none;
-}
+  */
+ 
+  body {
+    background-image: radial-gradient( circle, rgba(  0, 0, 0, 0 ) 0%, rgba( 0, 0, 0, 0.8 ) 100% );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }

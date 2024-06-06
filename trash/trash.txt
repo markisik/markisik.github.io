@@ -1,0 +1,56 @@
+Снег -----------------------------------
+                <div class="snow">
+                   <div></div>
+                </div>
+                <div class="snow1">
+                  <div></div>
+               </div>
+----------------------------------------
+      
+        Солнышко ----------------------------------------
+        <div class="sun">  
+
+         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         width="450" height="450" viewBox="0 0 300 300" >  
+  
+         <defs>
+            <radialGradient id="Rgrad"  >
+               <stop stop-color="yellow" offset="0.25">
+             Анимация смены цвета градиента
+             <animate
+             attributeName="stop-color"
+             dur="8s"
+             values="yellow;orange;yellow"
+             begin="0s"
+     
+             repeatCount="indefinite"  /> 
+            </stop>
+            <stop stop-color="orange" offset="1">
+               <animate
+               attributeName="stop-color"
+               dur="4s"
+               values="orange;yellow;orange"
+               begin="0s"
+      
+      repeatCount="indefinite" /> 
+     </stop>
+     
+    
+         </radialGradient>
+         </defs>
+             <g id="sun">
+      <circle cx="150" cy="150" r="100"  fill="url(#Rgrad)" stroke="url(#Rgrad)" stroke-width="100" stroke-dasharray="7.85" />
+  
+               </g> 
+                 Анимация вращения солнца
+       
+     <animateTransform
+       xlink:href="#sun"
+       attributeName="transform"
+       type="rotate"
+       dur="60s"
+       values="0 150 150;360 150 150;0 150 150"
+       repeatCount="indefinite" />
+  </svg> 
+  ----------------------------------------
