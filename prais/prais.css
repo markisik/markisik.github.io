@@ -33,3 +33,14 @@ th,td {
 h1 {
     text-align: center;
 }
+
+.back_mur {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-clip: border-box;
+    background: #694242;
+    border-radius: 7px;
+    padding-inline: 8px;
+    padding-block: 4px;
+    font-weight: 600;
+}
